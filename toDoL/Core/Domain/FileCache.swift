@@ -1,14 +1,8 @@
-//
-//  FileCache.swift
-//  toDoL
-//
-//  Created by snydia on 18.06.2024.
-//
-
 import Foundation
+import Combine
 
 final class FileCache {
-    private(set) var toDoItems: [TodoItem] = []
+    @Published private(set) var toDoItems: [TodoItem] = []
     
     private let fileName: String
     private let fileManager: FileManager
@@ -30,6 +24,13 @@ final class FileCache {
     func deleteItem(with id: String) -> TodoItem? {
         guard let index = toDoItems.firstIndex(where: { $0.id == id }) else { return nil }
         return toDoItems.remove(at: index)
+    }
+    
+    @discardableResult
+    func replaceItem(_ item: TodoItem) -> Bool {
+        guard let index = toDoItems.firstIndex(where: { $0.id == item.id }) else { return false }
+        toDoItems[index] = item
+        return true
     }
     
     @discardableResult

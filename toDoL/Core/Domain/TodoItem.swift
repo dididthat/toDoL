@@ -1,10 +1,3 @@
-//
-//  TodoItem.swift
-//  toDoL
-//
-//  Created by snydia on 17.06.2024.
-//
-
 import Foundation
 
 struct TodoItem: Equatable {
@@ -28,8 +21,8 @@ struct TodoItem: Equatable {
         importance: Importance,
         deadline: Date? = nil,
         isCompleted: Bool = false,
-        creationDate : Date = Date(),
-        modificationDate : Date? = nil
+        creationDate: Date = Date(),
+        modificationDate: Date? = nil
     ) {
         self.id = id
         self.text = text
@@ -38,6 +31,24 @@ struct TodoItem: Equatable {
         self.isCompleted = isCompleted
         self.creationDate  = creationDate
         self.modificationDate  = modificationDate
+    }
+    
+    func with(
+        text: String? = nil,
+        importance: Importance? = nil,
+        isCompleted: Bool? = nil,
+        creationDate: Date? = nil,
+        modificationDate: Date? = nil
+    ) -> Self {
+        return TodoItem(
+            id: id,
+            text: text ?? self.text,
+            importance: importance ?? self.importance,
+            deadline: deadline,
+            isCompleted: isCompleted ?? self.isCompleted,
+            creationDate: creationDate ?? self.creationDate,
+            modificationDate: modificationDate ?? self.modificationDate
+        )
     }
 }
 

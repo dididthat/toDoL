@@ -7,10 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A14079B2C2F3AF200227AE2 /* ColorScheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14079A2C2F3AF200227AE2 /* ColorScheme.swift */; };
+		0A14079F2C2F40D300227AE2 /* MainScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14079E2C2F40D300227AE2 /* MainScreenView.swift */; };
+		0A1407A12C2F40E200227AE2 /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1407A02C2F40E200227AE2 /* MainScreenViewModel.swift */; };
+		0A1407A32C2F41A700227AE2 /* MainScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1407A22C2F41A700227AE2 /* MainScreenBuilder.swift */; };
+		0A1407A62C2F431500227AE2 /* AppDependenciesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1407A52C2F431500227AE2 /* AppDependenciesContainer.swift */; };
+		0A1407A82C2F45D000227AE2 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1407A72C2F45D000227AE2 /* Images.swift */; };
+		0A1407AB2C2F4B6200227AE2 /* EditingScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1407AA2C2F4B6200227AE2 /* EditingScreenView.swift */; };
+		0A1407AD2C2F4B8300227AE2 /* EditingScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1407AC2C2F4B8300227AE2 /* EditingScreenViewModel.swift */; };
+		0A1407AF2C2F4BC000227AE2 /* EditingScreenBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1407AE2C2F4BC000227AE2 /* EditingScreenBuilder.swift */; };
+		0A1407B22C2F631B00227AE2 /* LocaleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1407B12C2F631B00227AE2 /* LocaleProvider.swift */; };
+		0A1407B52C2F74B000227AE2 /* CheckboxToggleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1407B42C2F74B000227AE2 /* CheckboxToggleStyle.swift */; };
 		D2ADE3372C206160004A6338 /* toDoLApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADE3362C206160004A6338 /* toDoLApp.swift */; };
-		D2ADE3392C206160004A6338 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADE3382C206160004A6338 /* ContentView.swift */; };
 		D2ADE33B2C206162004A6338 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2ADE33A2C206162004A6338 /* Assets.xcassets */; };
-		D2ADE33E2C206162004A6338 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2ADE33D2C206162004A6338 /* Preview Assets.xcassets */; };
 		D2ADE3522C206162004A6338 /* toDoLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADE3512C206162004A6338 /* toDoLUITests.swift */; };
 		D2ADE3542C206162004A6338 /* toDoLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADE3532C206162004A6338 /* toDoLUITestsLaunchTests.swift */; };
 		D2ADE3612C20650C004A6338 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ADE3602C20650C004A6338 /* TodoItem.swift */; };
@@ -36,11 +45,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A14079A2C2F3AF200227AE2 /* ColorScheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorScheme.swift; sourceTree = "<group>"; };
+		0A14079E2C2F40D300227AE2 /* MainScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenView.swift; sourceTree = "<group>"; };
+		0A1407A02C2F40E200227AE2 /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		0A1407A22C2F41A700227AE2 /* MainScreenBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenBuilder.swift; sourceTree = "<group>"; };
+		0A1407A52C2F431500227AE2 /* AppDependenciesContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDependenciesContainer.swift; sourceTree = "<group>"; };
+		0A1407A72C2F45D000227AE2 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		0A1407AA2C2F4B6200227AE2 /* EditingScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingScreenView.swift; sourceTree = "<group>"; };
+		0A1407AC2C2F4B8300227AE2 /* EditingScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingScreenViewModel.swift; sourceTree = "<group>"; };
+		0A1407AE2C2F4BC000227AE2 /* EditingScreenBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingScreenBuilder.swift; sourceTree = "<group>"; };
+		0A1407B12C2F631B00227AE2 /* LocaleProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleProvider.swift; sourceTree = "<group>"; };
+		0A1407B42C2F74B000227AE2 /* CheckboxToggleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxToggleStyle.swift; sourceTree = "<group>"; };
 		D2ADE3332C206160004A6338 /* toDoL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = toDoL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2ADE3362C206160004A6338 /* toDoLApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoLApp.swift; sourceTree = "<group>"; };
-		D2ADE3382C206160004A6338 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2ADE33A2C206162004A6338 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2ADE33D2C206162004A6338 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2ADE3432C206162004A6338 /* toDoLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toDoLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2ADE34D2C206162004A6338 /* toDoLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = toDoLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2ADE3512C206162004A6338 /* toDoLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toDoLUITests.swift; sourceTree = "<group>"; };
@@ -75,6 +93,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A1407982C2F3AC100227AE2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0A1407B02C2F630900227AE2 /* Helpers */,
+				0A1407A42C2F42F500227AE2 /* Domain */,
+				0A1407992C2F3AD000227AE2 /* UI */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0A1407992C2F3AD000227AE2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0A1407B32C2F74A700227AE2 /* View */,
+				0A14079A2C2F3AF200227AE2 /* ColorScheme.swift */,
+				0A1407A72C2F45D000227AE2 /* Images.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		0A14079C2C2F40B300227AE2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0A1407A92C2F488300227AE2 /* EditingScreen */,
+				0A14079D2C2F40BA00227AE2 /* MainScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0A14079D2C2F40BA00227AE2 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0A14079E2C2F40D300227AE2 /* MainScreenView.swift */,
+				0A1407A02C2F40E200227AE2 /* MainScreenViewModel.swift */,
+				0A1407A22C2F41A700227AE2 /* MainScreenBuilder.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		0A1407A42C2F42F500227AE2 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				D2ADE3602C20650C004A6338 /* TodoItem.swift */,
+				D2ADE3622C21EC44004A6338 /* FileCache.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		0A1407A92C2F488300227AE2 /* EditingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0A1407AA2C2F4B6200227AE2 /* EditingScreenView.swift */,
+				0A1407AC2C2F4B8300227AE2 /* EditingScreenViewModel.swift */,
+				0A1407AE2C2F4BC000227AE2 /* EditingScreenBuilder.swift */,
+			);
+			path = EditingScreen;
+			sourceTree = "<group>";
+		};
+		0A1407B02C2F630900227AE2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0A1407B12C2F631B00227AE2 /* LocaleProvider.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0A1407B32C2F74A700227AE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A1407B42C2F74B000227AE2 /* CheckboxToggleStyle.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D2ADE32A2C206160004A6338 = {
 			isa = PBXGroup;
 			children = (
@@ -99,21 +191,12 @@
 			isa = PBXGroup;
 			children = (
 				D2ADE3362C206160004A6338 /* toDoLApp.swift */,
-				D2ADE3382C206160004A6338 /* ContentView.swift */,
+				0A1407A52C2F431500227AE2 /* AppDependenciesContainer.swift */,
+				0A14079C2C2F40B300227AE2 /* Modules */,
+				0A1407982C2F3AC100227AE2 /* Core */,
 				D2ADE33A2C206162004A6338 /* Assets.xcassets */,
-				D2ADE33C2C206162004A6338 /* Preview Content */,
-				D2ADE3602C20650C004A6338 /* TodoItem.swift */,
-				D2ADE3622C21EC44004A6338 /* FileCache.swift */,
 			);
 			path = toDoL;
-			sourceTree = "<group>";
-		};
-		D2ADE33C2C206162004A6338 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				D2ADE33D2C206162004A6338 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		D2ADE3462C206162004A6338 /* toDoLTests */ = {
@@ -237,7 +320,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2ADE33E2C206162004A6338 /* Preview Assets.xcassets in Resources */,
 				D2ADE33B2C206162004A6338 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,10 +345,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2ADE3392C206160004A6338 /* ContentView.swift in Sources */,
+				0A1407AF2C2F4BC000227AE2 /* EditingScreenBuilder.swift in Sources */,
+				0A1407A12C2F40E200227AE2 /* MainScreenViewModel.swift in Sources */,
+				0A14079F2C2F40D300227AE2 /* MainScreenView.swift in Sources */,
+				0A14079B2C2F3AF200227AE2 /* ColorScheme.swift in Sources */,
+				0A1407A32C2F41A700227AE2 /* MainScreenBuilder.swift in Sources */,
+				0A1407A82C2F45D000227AE2 /* Images.swift in Sources */,
+				0A1407B52C2F74B000227AE2 /* CheckboxToggleStyle.swift in Sources */,
+				0A1407AB2C2F4B6200227AE2 /* EditingScreenView.swift in Sources */,
+				0A1407A62C2F431500227AE2 /* AppDependenciesContainer.swift in Sources */,
 				D2ADE3612C20650C004A6338 /* TodoItem.swift in Sources */,
 				D2ADE3632C21EC44004A6338 /* FileCache.swift in Sources */,
 				D2ADE3372C206160004A6338 /* toDoLApp.swift in Sources */,
+				0A1407B22C2F631B00227AE2 /* LocaleProvider.swift in Sources */,
+				0A1407AD2C2F4B8300227AE2 /* EditingScreenViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
