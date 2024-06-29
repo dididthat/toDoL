@@ -1,17 +1,22 @@
-//
-//  toDoLApp.swift
-//  toDoL
-//
-//  Created by snydia on 17.06.2024.
-//
-
 import SwiftUI
 
 @main
 struct toDoLApp: App {
+    private let dependenciesContaner = AppDependenciesContainer()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                MainScreenBuilder().build(
+                    fileCache: dependenciesContaner.fileCache,
+                    detailsScreenBuilder: { id in
+                        AnyView(EditingScreenBuilder().build(fileCache: dependenciesContaner.fileCache, id: id))
+                    }
+                )
+            }
+            .onAppear {
+                dependenciesContaner.fileCache.loadItems()
+            }
         }
     }
 }
